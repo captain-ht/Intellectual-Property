@@ -32,6 +32,11 @@ declare global {
 			sidebarFound: boolean;
 			topComponentsCount: number;
 		};
+		iconifyLoaded?: boolean;
+		__iconifyLoader?: {
+			load: () => Promise<void>;
+		};
+		initSemifullScrollDetection?: () => void;
 	}
 }
 
