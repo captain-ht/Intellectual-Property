@@ -1,8 +1,4 @@
-import {
-	DARK_MODE,
-	DEFAULT_THEME,
-	LIGHT_MODE,
-} from "@constants/constants";
+import { DARK_MODE, DEFAULT_THEME, LIGHT_MODE } from "@constants/constants";
 import { siteConfig } from "@/config";
 import type {
 	FONT_MODE,

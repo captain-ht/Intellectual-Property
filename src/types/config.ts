@@ -17,16 +17,16 @@ export type SiteConfig = {
 	keywords?: string[]; // 站点关键词，用于生成 <meta name="keywords">
 
 	lang:
-	| "en"
-	| "zh_CN"
-	| "zh_TW"
-	| "ja"
-	| "ko"
-	| "es"
-	| "th"
-	| "vi"
-	| "tr"
-	| "id";
+		| "en"
+		| "zh_CN"
+		| "zh_TW"
+		| "ja"
+		| "ko"
+		| "es"
+		| "th"
+		| "vi"
+		| "tr"
+		| "id";
 
 	themeColor: {
 		hue: number;
@@ -59,11 +59,11 @@ export type SiteConfig = {
 	// 添加字体配置
 	font: {
 		defaultMode:
-		| "zenMaruGothic"
-		| "hanalei"
-		| "sourceHanSerif"
-		| "droidSans"
-		| "huninn"; // 默认字体模式
+			| "zenMaruGothic"
+			| "hanalei"
+			| "sourceHanSerif"
+			| "droidSans"
+			| "huninn"; // 默认字体模式
 		allowSwitch?: boolean; // 是否允许用户切换字体
 	};
 
@@ -90,12 +90,12 @@ export type SiteConfig = {
 
 	banner: {
 		src:
-		| string
-		| string[]
-		| {
-			desktop?: string | string[];
-			mobile?: string | string[];
-		}; // 支持单个图片、图片数组或分别设置桌面端和移动端图片
+			| string
+			| string[]
+			| {
+					desktop?: string | string[];
+					mobile?: string | string[];
+			  }; // 支持单个图片、图片数组或分别设置桌面端和移动端图片
 		position?: "top" | "center" | "bottom";
 		carousel?: {
 			enable: boolean; // 是否启用轮播
@@ -339,12 +339,12 @@ export type SakuraConfig = {
 
 export type FullscreenWallpaperConfig = {
 	src:
-	| string
-	| string[]
-	| {
-		desktop?: string | string[];
-		mobile?: string | string[];
-	}; // 支持单个图片、图片数组或分别设置桌面端和移动端图片
+		| string
+		| string[]
+		| {
+				desktop?: string | string[];
+				mobile?: string | string[];
+		  }; // 支持单个图片、图片数组或分别设置桌面端和移动端图片
 	position?: "top" | "center" | "bottom"; // 壁纸位置，等同于 object-position
 	carousel?: {
 		enable: boolean; // 是否启用轮播

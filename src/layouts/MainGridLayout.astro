@@ -111,13 +111,15 @@ const mobileNonHomeBannerClass = !isHomePage ? "mobile-hide-banner" : "";
 
 // 计算主内容区域位置，考虑手机端非首页时banner被隐藏
 // 当默认模式为 banner 时，使用banner高度；否则使用顶栏高度
-const mainPanelTop = siteConfig.wallpaperMode.defaultMode === "banner"
-	? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
-	: "5.5rem";
+const mainPanelTop =
+	siteConfig.wallpaperMode.defaultMode === "banner"
+		? `calc(${BANNER_HEIGHT}vh - ${MAIN_PANEL_OVERLAPS_BANNER_HEIGHT}rem)`
+		: "5.5rem";
 const mobileNonHomeMainTop = !isHomePage ? "5.5rem" : mainPanelTop;
 
 // 当默认模式不是 banner 时，主内容区域应该始终从顶栏下面开始
-const finalMainPanelTop = siteConfig.wallpaperMode.defaultMode === "banner" ? mainPanelTop : "5.5rem";
+const finalMainPanelTop =
+	siteConfig.wallpaperMode.defaultMode === "banner" ? mainPanelTop : "5.5rem";
 
 // 检查侧边栏是否启用，动态调整网格布局
 // 全局启用状态
@@ -162,7 +164,8 @@ const mainContentClass = `
 	.replace(/\s+/g, " ");
 
 // 检查是否应该启用半透明效果（当默认模式为 fullscreen 时）
-const shouldEnableTransparency = siteConfig.wallpaperMode.defaultMode === "fullscreen";
+const shouldEnableTransparency =
+	siteConfig.wallpaperMode.defaultMode === "fullscreen";
 
 // 为组件添加半透明效果的CSS类
 const transparentClass = shouldEnableTransparency

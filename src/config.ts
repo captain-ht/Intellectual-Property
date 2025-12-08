@@ -528,12 +528,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
 		welcome: "欢迎来到 Mizuki 网站！", // 欢迎词
-		touch: [
-			"你在做什么？",
-			"别碰我！",
-			"变态！",
-			"不要这样欺负我！",
-		], // 触摸提示
+		touch: ["你在做什么？", "别碰我！", "变态！", "不要这样欺负我！"], // 触摸提示
 		home: "点击这里返回首页！", // 首页提示
 		skin: ["想看看我的新衣服吗？", "新衣服很好看~"], // 换装提示
 		close: "QWQ 下次再见~", // 关闭提示

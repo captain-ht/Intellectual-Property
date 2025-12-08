@@ -27,8 +27,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "current-study",
 		title: "学习计算机科学与技术",
-		description:
-			"目前正在学习计算机科学与技术，专注于 Web 开发和软件工程。",
+		description: "目前正在学习计算机科学与技术，专注于 Web 开发和软件工程。",
 		type: "education",
 		startDate: "2022-09-01",
 		location: "Beijing",
@@ -76,8 +75,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "summer-internship-2024",
 		title: "前端开发实习生",
-		description:
-			"在互联网公司进行暑期实习，参与 Web 应用的前端开发工作。",
+		description: "在互联网公司进行暑期实习，参与 Web 应用的前端开发工作。",
 		type: "work",
 		startDate: "2024-07-01",
 		endDate: "2024-08-31",
@@ -97,8 +95,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "web-development-course",
 		title: "完成 Web 开发在线课程",
-		description:
-			"完成了全栈 Web 开发在线课程，系统学习了前端和后端开发技术。",
+		description: "完成了全栈 Web 开发在线课程，系统学习了前端和后端开发技术。",
 		type: "achievement",
 		startDate: "2024-01-15",
 		endDate: "2024-05-30",
@@ -122,8 +119,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "student-management-system",
 		title: "学生管理系统课程项目",
-		description:
-			"数据库课程的期末项目，开发了一个完整的学生信息管理系统。",
+		description: "数据库课程的期末项目，开发了一个完整的学生信息管理系统。",
 		type: "project",
 		startDate: "2023-11-01",
 		endDate: "2023-12-15",
@@ -139,8 +135,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "programming-contest",
 		title: "大学编程竞赛",
-		description:
-			"参加了学校举办的编程竞赛，提升了算法和编程技能。",
+		description: "参加了学校举办的编程竞赛，提升了算法和编程技能。",
 		type: "achievement",
 		startDate: "2023-10-20",
 		location: "Beijing Institute of Technology",
@@ -157,8 +152,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "part-time-tutor",
 		title: "兼职编程导师",
-		description:
-			"为高中生提供编程辅导，帮助他们学习 Python 基础知识。",
+		description: "为高中生提供编程辅导，帮助他们学习 Python 基础知识。",
 		type: "work",
 		startDate: "2023-09-01",
 		endDate: "2024-01-31",
@@ -193,8 +187,7 @@ export const timelineData: TimelineItem[] = [
 	{
 		id: "first-programming-experience",
 		title: "第一次编程经历",
-		description:
-			"在高中信息技术课上第一次接触编程，开始学习 Python 基础语法。",
+		description: "在高中信息技术课上第一次接触编程，开始学习 Python 基础语法。",
 		type: "education",
 		startDate: "2021-03-01",
 		skills: ["Python", "Basic Programming Concepts"],
@@ -206,7 +199,6 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:code",
 		color: "#7C3AED",
 	},
-
 ];
 
 // Get timeline statistics

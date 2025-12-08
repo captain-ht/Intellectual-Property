@@ -1,7 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
-import { type NavBarLink, LinkPreset } from "../../types/config";
 import { LinkPresets } from "../../constants/link-presets";
+import { LinkPreset, type NavBarLink } from "../../types/config";
 import { url } from "../../utils/url-utils";
 
 interface Props {
@@ -9,7 +9,7 @@ interface Props {
 }
 
 // 处理links中的LinkPreset转换
-const processedLinks = Astro.props.links.map(
+const processedLinks: NavBarLink[] = Astro.props.links.map(
 	(link: NavBarLink): NavBarLink => ({
 		...link,
 		children: link.children?.map(
@@ -19,7 +19,7 @@ const processedLinks = Astro.props.links.map(
 				}
 				return child;
 			},
-		),
+		) as NavBarLink[] | undefined,
 	}),
 );
 ---

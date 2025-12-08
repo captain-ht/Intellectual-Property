@@ -39,8 +39,7 @@ export const projectsData: Project[] = [
 	{
 		id: "portfolio-website",
 		title: "个人作品集",
-		description:
-			"展示项目经验和技术技能的个人作品集网站。",
+		description: "展示项目经验和技术技能的个人作品集网站。",
 		image: "",
 		category: "web",
 		techStack: ["React", "Next.js", "TypeScript", "Framer Motion"],
@@ -56,8 +55,7 @@ export const projectsData: Project[] = [
 	{
 		id: "task-manager-app",
 		title: "任务管理应用",
-		description:
-			"支持团队协作和项目管理的跨平台任务管理应用。",
+		description: "支持团队协作和项目管理的跨平台任务管理应用。",
 		image: "",
 		category: "mobile",
 		techStack: ["React Native", "TypeScript", "Redux", "Firebase"],
@@ -68,8 +66,7 @@ export const projectsData: Project[] = [
 	{
 		id: "data-visualization-tool",
 		title: "数据可视化工具",
-		description:
-			"支持多种图表类型和交互式分析的数据可视化工具。",
+		description: "支持多种图表类型和交互式分析的数据可视化工具。",
 		image: "",
 		category: "web",
 		techStack: ["Vue.js", "D3.js", "TypeScript", "Node.js"],
@@ -83,8 +80,7 @@ export const projectsData: Project[] = [
 	{
 		id: "e-commerce-platform",
 		title: "电商平台",
-		description:
-			"包含用户管理、产品管理和订单处理功能的全栈电商平台。",
+		description: "包含用户管理、产品管理和订单处理功能的全栈电商平台。",
 		image: "",
 		category: "web",
 		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
