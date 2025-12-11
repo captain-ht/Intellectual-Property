@@ -377,7 +377,7 @@ const subtitle = i18n(I18nKey.timelineSubtitle);
     var timelineNodes = document.querySelectorAll('.timeline-node');
     timelineNodes.forEach(function(node, index) {
       // 添加延迟，使动画依次出现
-      node.style.animationDelay = (index * 0.2) + 's';
+      (node as HTMLElement).style.animationDelay = (index * 0.2) + 's';
     });
   }
   
@@ -393,7 +393,7 @@ const subtitle = i18n(I18nKey.timelineSubtitle);
       if (event.persisted && window.__iconifyLoader) {
         // 页面从缓存恢复，重新检查图标状态
         setTimeout(function() {
-          window.__iconifyLoader.load().catch(console.error);
+          window.__iconifyLoader?.load().catch(console.error);
         }, 100);
       }
     });

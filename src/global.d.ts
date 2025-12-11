@@ -1,4 +1,4 @@
-export {};
+export { };
 
 declare global {
 	interface HTMLElementTagNameMap {
@@ -11,7 +11,7 @@ declare global {
 		// Define swup type directly since @swup/astro doesn't export AstroIntegration
 		swup?: {
 			hooks?: {
-				on: (event: string, callback: () => void) => void;
+				on: (event: string, callback: (...args: any[]) => void) => void;
 			};
 		};
 		pagefind: {
